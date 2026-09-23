@@ -13,18 +13,26 @@ channel, not by how big the channel is.
 
 **Nothing gets published until you do it.** These skills write. You upload.
 
+## JRhyma edition
+
+This fork adds [JRhyma YouTube workflow](skills/jrhyma-youtube-workflow/SKILL.md), a guide that combines the eleven skills into one process from research to scripts, packaging, and Shorts. Start with [JRhyma's voice template](templates/jrhyma-voice.md); update it from real recordings before treating it as an exact voice profile.
+
+To work with this edition, ask ChatGPT to use the JRhyma workflow for your next video and provide a topic, footage, or transcript. The planning skills do not generate or publish a finished video on their own.
+
+This is a fork of [Jakeschincariol's original project](https://github.com/Jakeschincariol/chatgpt-youtube-agent-skill), distributed under its MIT license.
+
 ## Install
 
 Paste this link into ChatGPT and say **install skill**:
 
 ```
-https://github.com/Jakeschincariol/chatgpt-youtube-agent-skill
+https://github.com/jrhyma/chatgpt-youtube-agent-skill
 ```
 
 Or do it yourself:
 
 ```bash
-git clone https://github.com/Jakeschincariol/chatgpt-youtube-agent-skill
+git clone https://github.com/jrhyma/chatgpt-youtube-agent-skill
 cp -r chatgpt-youtube-agent-skill/skills/yt-* ~/.codex/skills/
 ```
 
